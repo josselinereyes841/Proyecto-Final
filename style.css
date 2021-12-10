@@ -1,0 +1,417 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#container {
+	WIDTH: 926px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+#main {
+	BACKGROUND-IMAGE: url(../images/background.gif); WIDTH: 800px
+}
+#nav {
+	float:left;
+	width:560px;
+	margin-top:40px;
+	height: 58px;
+}
+#nav A {
+	COLOR:#003366;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+
+	display:block;
+}
+#nav A:hover {
+	COLOR: #E06D08;
+	FONT-WEIGHT: 800;
+
+}
+
+H1 {
+
+}
+A {
+
+}
+
+#content {
+	BACKGROUND-COLOR: #FFFFFF;
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#currentuser {
+        TEXT-ALIGN: right; HEIGHT: 18px; COLOR:#ffffff; float:right; margin-top:25px;
+}
+#left {
+	MARGIN: 20px 0px 30px 20px; WIDTH: 800px; DISPLAY: inline; FLOAT: left
+}
+#left P {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #000000; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+#left A {
+	COLOR: #052d4e; FONT-WEIGHT: 800
+}
+#left A:hover {
+        COLOR: #999999
+}
+#left H1 {
+	DISPLAY: inline; COLOR: #052d4e; FONT-SIZE: 16px; FONT-WEIGHT: 900
+}
+#left SPAN:not(.ui-icon) {
+	DISPLAY: inline; COLOR: #007dda; MARGIN-LEFT: 8px; FONT-SIZE: 12px; FONT-WEIGHT: 900
+}
+#right {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #397eb7; MARGIN: 30px 20px 20px 0px; PADDING-LEFT: 20px; WIDTH: 260px; PADDING-RIGHT: 20px; DISPLAY: inline; FLOAT: right; COLOR: #ffffff; FONT-WEIGHT: 900; PADDING-TOP: 10px
+}
+#right P {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 7px
+}
+#right A {
+	COLOR: #ffffff; FONT-WEIGHT: 900
+}
+#right A:hover {
+	COLOR: #052d4e
+}
+.post {
+	MARGIN-TOP: 20px
+}
+.post A {
+
+}
+.post A:hover {
+
+}
+.post P {
+
+}
+#footer {
+	TEXT-ALIGN: center;
+	background-image: url(../img/bg.jpg);
+	background-position: center bottom;
+	color: #4D4D4D;
+}
+#footer UL {
+
+}
+#footer LI {
+	TEXT-ALIGN: center; DISPLAY: inline; FLOAT: none
+}
+#footer A {
+	COLOR: #ffffff; FONT-WEIGHT: 900; TEXT-DECORATION: none
+}
+#footer A:hover {
+	TEXT-DECORATION: underline
+}
+#footer SPAN {
+	DISPLAY: block;
+	CLEAR: both
+}
+.clear {
+	CLEAR: both
+}
+INPUT.invalid_field {
+	BORDER-BOTTOM: #781351 1px solid; BORDER-LEFT: #781351 1px solid; BACKGROUND: #fee3ad; COLOR: #781351; BORDER-TOP: #781351 1px solid; BORDER-RIGHT: #781351 1px solid
+}
+#navcontainer {
+	MARGIN-LEFT: 30px
+}
+#navcontainer UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana, arial, sans-serif; PADDING-TOP: 0px
+}
+#navcontainer LI {
+	MARGIN: 0px
+}
+#navcontainer A {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: transparent; PADDING-LEFT: 10px; WIDTH: 00px; PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #333; FONT-SIZE: 12px; BORDER-TOP: #aaa 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#navcontainerheader {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: transparent; FONT-STYLE: italic; PADDING-LEFT: 10px; WIDTH: 200px; PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #333; FONT-SIZE: 12px; BORDER-TOP: #aaa 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#navcontainer A:hover {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ddd; PADDING-LEFT: 10px; PADDING-RIGHT: 1px; COLOR: #333; BORDER-RIGHT: #aaa 10px solid; PADDING-TOP: 2px
+}
+#navcontainer UL UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-LEFT: 30px; PADDING-TOP: 0px
+}
+#navcontainer LI LI A {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: transparent; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 170px; PADDING-RIGHT: 10px; DISPLAY: block; BORDER-TOP-STYLE: none; COLOR: #333; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+#contentpie {
+	padding-right: 20px;
+	padding-left: 15px;
+	color: #FFFFFF;
+	float: left;
+	width: 800px;
+}
+
+/* Estilos Agregados por Solcom / Nuevo menu 25072010*/
+
+body {
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	background-image:url(../img/bg_head.jpg);
+	background-repeat:repeat-x;
+	background-color:#858585;
+	font-family:"Trebuchet MS", arial, helvetica, sans-serif ;
+	font-size:12px;
+    color:#000000;
+}
+.header {
+	background-image: url(../img/head_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 161px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.solcom {
+font-size:10px;
+}
+.logo {
+	float: left;
+	width: 315px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+	height: 64px;
+	padding-top: 30px;
+	padding-left:10px;
+}
+ul.menu
+{
+	list-style:none;
+	width:100%
+}
+ul.menu li
+{
+   position:relative; /* Las coordenadas de los ul inferiores serÃ¡n relativas al <li> que los contiene */
+   width:auto;
+
+}
+ul.menu ul
+{
+   position:absolute; /* Esta posiciÃ³n es relativa al <li> que contiene a este <ul> */
+   left:30px; /* Para que no monte sobre el <li> */
+   top:-1px;
+   display:none;
+   list-style:none;
+
+}
+ul.menu li:hover > ul
+{
+   display:block;
+}
+ul.menu> li > ul /* Solo para los ul debajo de los li de primer nivel. */
+{
+	position:absolute;
+	left:15px;
+	top:15px;
+	display:none;
+	list-style:none;
+	width:180px;
+	margin-right:0px;
+	height:auto;
+	padding-top:5px;
+	background-color:#ffffff;
+}
+.cuadrofoot {
+	float: left;
+	width: 263px;
+	padding-right: 10px;
+	padding-left: 25px;
+	text-align: left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #858585;
+}
+.titulofoot {
+	font-size: 24px;
+	color: #808080;
+}
+#pie {
+	background-image: url(../img/foot.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 22px;
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#nav ul.menu> li > ul > li a {
+	font-weight:normal;
+	color:#666666;
+}
+#nav ul.menu> li > ul > li a:hover {
+	font-weight:normal;
+	color:#000000;
+}
+
+ul.menu> li > ul > li
+{
+	width:99%;
+	float:left;
+	text-align:left;
+	font-weight:normal;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	color:#999999;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+ul.menu> li > ul > li a
+{
+	padding-left:10px;
+	padding-bottom:3px;
+	padding-top:3px;
+	}
+ul.menu> li > ul > li a:hover
+{
+	width:95%;
+	display:block;
+	float:left;
+	text-align:left;
+	font-weight:normal;
+	background-color:#CCCCCC;
+	color:#FFFFFF;
+	padding-left:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+ul.menu > li /* SÃ³lo para li de primer nivel */
+{
+	float:left;
+	padding-left:16px;
+    width:auto;
+
+}
+
+ul.menu > li hover/* funcion sobre para los li de primer nivel*/
+{
+	float:left;
+	width:150px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-left-color: #333333;
+}
+
+.tituloseccion {
+	font-size: 50px;
+	color: #FFFFFF;
+	float: left;
+	padding-left: 8px;
+}
+.linea {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+a.blanco:link, a.blanco:visited {
+ color:#FFFFFF;
+ }
+a.blanco:hover, a.blanco:hover:visited {
+color:#CCCCCC;
+}
+
+
+
+/* Agregado por Insoft 100708, modificado 100709, 110630 */
+
+
+a.tituloseccion:link, a.tituloseccion:visited, a.tituloseccion:hover, a.tituloseccion:hover:visited {
+	TEXT-DECORATION: none
+}
+
+#nav ul {
+	COLOR:#003366;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: none;
+}
+.cuadrofootCopy {
+	float: left;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 25px;
+	text-align: left;
+	border-left-color: #858585;
+}
+
+.fb_label
+{
+	padding-right: 1em;
+}
+
+#left SPAN.fb_normal
+{
+	color: #000000;
+	font-weight: normal;
+	margin-left: 0px;
+	padding-right: 1em;
+}
+
+#left SPAN.fb_required
+{
+	color: #007DDA;
+	margin-left: 0px;
+}
+
+#left SPAN.fb_invalid
+{
+	color: red;
+	margin-left: 0px;
+}
+
+#left SPAN.fb_comment
+{
+	color: #000000;
+	font-weight: normal;
+	margin-left: 0px;
+	font-style: italic;
+}
+
+#left SPAN.fb_message
+{
+	color: red;
+	font-style: italic;
+	margin-left: 0px;
+}
+
+.fb_button
+{
+	margin-right: 1em;
+}
+
+.desarrollado {
+text-align:right;
+font-size:10px;
+}
+#info {
+display: table;
+}
+
+#inforow  {
+display: table-row;
+}
+
+#infoleft, #inforight {
+display: table-cell;
+vertical-align: top;
+width: 50%
+}
